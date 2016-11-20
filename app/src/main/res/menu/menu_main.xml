@@ -1,0 +1,17 @@
+<!-- Menu file for `activity_movies.xml` is located in a file
+     such as `res/menu/menu_movies.xml`  -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/restart"
+        app:showAsAction="ifRoom"
+        android:title="Restart">
+    </item>
+
+    <item
+        android:id="@+id/help"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="never"
+        android:title="How to Play">
+    </item>
+</menu>

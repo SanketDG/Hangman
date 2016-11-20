@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="genre">
+        <item>Dictionary</item>
+        <item>Hollywood</item>
+        <item>Bollywood</item>
+        <item>Famouse people</item>
+        <item>Riddles</item>
+    </string-array>
+</resources>

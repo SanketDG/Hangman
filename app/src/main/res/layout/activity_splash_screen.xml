@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/splash_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48dp"
+        android:textColor="#454545"
+        android:text="H A N G M A N"
+        android:id="@+id/textView"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="GENRE MODE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/genreMode"
+        android:onClick="goToAdvancedGame"
+        android:layout_below="@+id/normalMode"
+        android:layout_alignLeft="@+id/normalMode"
+        android:layout_alignStart="@+id/normalMode"
+        android:layout_alignRight="@+id/normalMode"
+        android:layout_alignEnd="@+id/normalMode" />
+
+    <Button
+        android:text="TWO PLAYER MODE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/twoPlayerMode"
+        android:layout_below="@+id/genreMode"
+        android:layout_alignLeft="@+id/genreMode"
+        android:layout_alignStart="@+id/genreMode"
+        android:layout_alignRight="@+id/genreMode"
+        android:layout_alignEnd="@+id/genreMode" />
+
+    <Button
+        android:text="ABOUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/about"
+        android:onClick="showAbout"
+        android:layout_below="@+id/twoPlayerMode"
+        android:layout_alignLeft="@+id/twoPlayerMode"
+        android:layout_alignStart="@+id/twoPlayerMode"
+        android:layout_alignRight="@+id/twoPlayerMode"
+        android:layout_alignEnd="@+id/twoPlayerMode" />
+
+
+    <Button
+        android:text="OLD SCHOOL MODE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goToGame"
+        android:id="@+id/normalMode"
+        android:visibility="invisible"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/imgLogo"
+        android:layout_alignStart="@+id/imgLogo"
+        android:layout_alignRight="@+id/imgLogo"
+        android:layout_alignEnd="@+id/imgLogo" />
+
+</RelativeLayout>
