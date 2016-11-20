@@ -11,17 +11,6 @@
         android:layout_centerHorizontal="true"
         android:src="@drawable/splash_image" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="48dp"
-        android:textColor="#454545"
-        android:text="H A N G M A N"
-        android:id="@+id/textView"
-        android:layout_marginTop="35dp"
-        android:layout_below="@+id/imgLogo"
-        android:layout_centerHorizontal="true" />
-
     <Button
         android:text="GENRE MODE"
         android:layout_width="wrap_content"
@@ -73,5 +62,16 @@
         android:layout_alignStart="@+id/imgLogo"
         android:layout_alignRight="@+id/imgLogo"
         android:layout_alignEnd="@+id/imgLogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48dp"
+        android:textColor="#454545"
+        android:text="H A N G M A N"
+        android:id="@+id/textView"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/imgLogo"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
