@@ -25,29 +25,17 @@
         android:layout_alignEnd="@+id/normalMode" />
 
     <Button
-        android:text="TWO PLAYER MODE"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:visibility="invisible"
-        android:id="@+id/twoPlayerMode"
-        android:layout_below="@+id/genreMode"
-        android:layout_alignLeft="@+id/genreMode"
-        android:layout_alignStart="@+id/genreMode"
-        android:layout_alignRight="@+id/genreMode"
-        android:layout_alignEnd="@+id/genreMode" />
-
-    <Button
         android:text="ABOUT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
         android:id="@+id/about"
         android:onClick="showAbout"
-        android:layout_below="@+id/twoPlayerMode"
-        android:layout_alignLeft="@+id/twoPlayerMode"
-        android:layout_alignStart="@+id/twoPlayerMode"
-        android:layout_alignRight="@+id/twoPlayerMode"
-        android:layout_alignEnd="@+id/twoPlayerMode" />
+        android:layout_below="@+id/genreMode"
+        android:layout_alignLeft="@+id/genreMode"
+        android:layout_alignStart="@+id/genreMode"
+        android:layout_alignRight="@+id/genreMode"
+        android:layout_alignEnd="@+id/genreMode" />
 
 
     <Button
@@ -57,6 +45,7 @@
         android:onClick="goToGame"
         android:id="@+id/normalMode"
         android:visibility="invisible"
+        android:layout_marginTop="30dp"
         android:layout_below="@+id/textView"
         android:layout_alignLeft="@+id/imgLogo"
         android:layout_alignStart="@+id/imgLogo"

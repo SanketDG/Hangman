@@ -14,14 +14,13 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import static snkt.co.hangman.R.id.about;
-import static snkt.co.hangman.R.id.twoPlayerMode;
 
 public class SplashScreenActivity extends Activity {
 
     // Splash screen timer
     private static int SPLASH_TIME_OUT = 2000;
 
-    private Button normalMode, streakMode, twoPlayerMode, aboutButton;
+    private Button normalMode, genreMode, aboutButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,8 +29,7 @@ public class SplashScreenActivity extends Activity {
 
 
         normalMode = (Button) findViewById(R.id.normalMode);
-        streakMode = (Button) findViewById(R.id.genreMode);
-        twoPlayerMode = (Button) findViewById(R.id.twoPlayerMode);
+        genreMode = (Button) findViewById(R.id.genreMode);
         aboutButton = (Button) findViewById(R.id.about);
 
 
@@ -47,8 +45,7 @@ public class SplashScreenActivity extends Activity {
                 // This method will be executed once the timer is over
                 // Start your app main activity
                 normalMode.setVisibility(View.VISIBLE);
-                streakMode.setVisibility(View.VISIBLE);
-                twoPlayerMode.setVisibility(View.VISIBLE);
+                genreMode.setVisibility(View.VISIBLE);
                 aboutButton.setVisibility(View.VISIBLE);
                 // close this activity
             }

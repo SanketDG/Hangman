@@ -93,8 +93,7 @@
     <p>Hangman is a game of guessing words. Try to guess the word by guessing each letter.</p>
     <p>Read more in the Wikipedia <a href="https://en.wikipedia.org/wiki/Hangman_(game)">article</a></p>
     <p>With every wrong guess, the stick figure gets closer to getting hanged! <b>Save him!</b></p>
-    <p>Make sure that <b>"hangman"</b> is not hanged!</p>
-    <p><b>May the guess be with you!</b></p>]]></string>
+    <p>Make sure that <b>"hangman"</b> is not hanged!</p>    <p><b>May the guess be with you!</b></p>]]></string>
 
     <string name="about"><![CDATA[<p></p>
     <h2>&copy SanketDG 2016</h2>
